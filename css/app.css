@@ -20,5 +20,14 @@ h1{
   font-size: bold;
 }
 h2{
-  color:red; 
+  color:red;
+}
+body{
+  column-fill: balance;
+  margin-right: -50px;
+  border-radius: 20px;
+  border:red;
+}
+.background{
+  margin-right: 50px;
 }
