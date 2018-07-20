@@ -2,7 +2,14 @@
 #### pig dice is updated version, 20/07/2018
 #### By **Duncan Arani**
 ## Description
-by rolling the dice you only add your score only if you roll any number not less than one .this means when you roll 1 your turn is over .
+Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":
+
+If the player rolls a 1, they score nothing and it becomes the next player's turn.
+If the player rolls any other number, it is added to their turn total and the player's turn continues.
+If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.
+The first player to score 100 or more points wins.
+
+
 ## Setup/Installation Requirements
 You can find the application on the app store or the apple store for download and Installation.
 Here is the link to the application: https://github.com/DuncanArani/pig-dice.git
