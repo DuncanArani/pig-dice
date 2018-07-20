@@ -22,6 +22,10 @@
 <div class="backgrund" style="background-image:url('img/rolling-dices.jpg')" class="inner-image">
       <h1>Let's play Pig Dice!</h1>
       <ol>
+        <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
+        <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
+        <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
+      </ol>
       <!-- <div class="row">
         <div class="column"> -->
 
@@ -36,6 +40,7 @@
         <div class="form-group">
           <label for="playerBName"><strong>Player B Name:</strong></label>
           <input required class="playerBName form-control" type="text2" placeholder="Enter your name">
+          <p>The first player to score 100 or more points wins.</p>
           <button id="start" class="btn btn-primary">Start</button>
         </div>
       </form>
