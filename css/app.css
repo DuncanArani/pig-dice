@@ -1,0 +1,21 @@
+.container2{
+  display: none;
+  align-content: center;
+
+}
+h1{
+  text-align: center;
+}
+#new-game{
+align-content: center;
+    }
+.jumbotron{
+color :green;
+}
+h1{
+  color:yellow;
+}
+.form-group{
+  color: red;
+  font-size: bold;
+}
